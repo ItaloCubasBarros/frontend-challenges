@@ -1,0 +1,94 @@
+.Container{
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Panel{
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #242d3a;
+}
+
+.ThankYouPanel{
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #242d3a;
+    text-align: center;
+}
+
+.selected{
+    background-color: #262f38;
+    color: #fb7614;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.thx{
+    width: 55%;
+    height: 55%;
+    margin-top: 9px;
+}
+
+.Star{
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #262f38;
+}
+
+.Title{
+    color: white;
+}
+
+.Description{
+    font-size: 15px;
+    color: #89909a;
+ 
+}
+.Description-thx{
+    font-size: 17px;
+    color: #89909a;
+   
+}
+
+
+.ButtonGroup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rating{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #262f38;
+    color: white;
+    
+}
+
+.Rating:hover{
+    background-color: #7c8898;
+}
+
+.Rating:focus{
+    background-color: #fb7614;
+}
+
+.Submit{
+    padding: 15px;
+    background-color: #fb7614;
+    color: white;
+    border-radius: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Submit:hover{
+    background-color: white;
+    color: #fb7614 ;
+}
